@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+    background-color: #1B244A;
+    width: 575px;
+    padding: 50px;
+    border-radius: 12px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 40px;
+}
+
+.title {
+    margin: 0px 0px 20px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    font-size: 40px;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score {
+    width: 150px;
+    font-family: "Cursed Timer ULiL";
+    font-size: 90px;
+    color: white;
+    background-color: #080001;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.score p {
+    margin: 15px 0px 0px 0px;
+}
+
+.winning {
+    color: #10B981;
+}
+
+.losing {
+    color: #881337;
+}
+
+.equal {
+    color: white;
+}
+
+.btn-container {
+    display: flex;
+    column-gap: 7px;
+    margin-top: 20px;
+}
+
+.btn-container button {
+    padding: 3px 0px 0px 0px;
+    font-family: "Cursed Timer ULiL";
+    font-size: 18px;
+    border: #9AABD8 solid 2px;
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    color: #9AABD8;
+}
+
+.btn-container button:hover {
+    box-shadow: #EEEEEE 0px 0px 3px;
+    border: #EEEEEE solid 2px;
+}
+
+.btn-container button:active {
+    box-shadow: #000000 0px 0px 6px;
+}
+
+/* New Game Section */
+
+#new-game-btn {
+    width: 100px;
+    height: 35px;
+    border: none;
+    background-color: #9CA3AF;
+    font-family: Verdana;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+}
+
+#new-game-btn:hover {
+    border: 1px solid white;
+    box-shadow: 0px 0px 2px white;
+}
